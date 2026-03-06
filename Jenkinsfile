@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Code"){
             steps{
-                git url: "https://github.com/SravyaPothuraju/two-tier-devops-deployment.git", branch: "master"
+                git url: "https://github.com/SravyaPothuraju/two-tier-devops-deployment.git", branch: "main"
             }
         }
         stage("Build & Test"){
